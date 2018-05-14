@@ -60,7 +60,7 @@ class ClearWindow:
 
         if self.text.compare('insert', '<', 'iomark'):
             self.text.mark_set('insert', 'end-1c')
-        self.editwin.set_line_and_column()
+        self.editwidn.set_line_and_column()
 
     def clear_window(self, event):
         # remove undo delegator
